@@ -1,0 +1,102 @@
+[
+    {
+        "image": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Cozy Retreat",
+        "city": "Cityville",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "room_size": "1200 sqft",
+        "availability": "Available",
+        "rent_per_month": "$1,500"
+    },
+    {
+        "image": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Urban Oasis",
+        "city": "Metroburg",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "room_size": "1800 sqft",
+        "availability": "Available",
+        "rent_per_month": "$2,200"
+    },
+    {
+        "image": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Sunset Villa",
+        "city": "Seaview",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "room_size": "2500 sqft",
+        "availability": "Not Available",
+        "rent_per_month": "$2,800"
+    },
+    {
+        "image": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Tranquil Haven",
+        "city": "Mountainville",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "room_size": "1000 sqft",
+        "availability": "Available",
+        "rent_per_month": "$1,200"
+    },
+    {
+        "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Lakefront Serenity",
+        "city": "Waterside",
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "room_size": "2000 sqft",
+        "availability": "Available",
+        "rent_per_month": "$2,400"
+    },
+    {
+        "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Garden Retreat",
+        "city": "Greenfield",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "room_size": "1100 sqft",
+        "availability": "Not Available",
+        "rent_per_month": "$1,300"
+    },
+    {
+        "image": "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Skyline View",
+        "city": "Highrise",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "room_size": "900 sqft",
+        "availability": "Available",
+        "rent_per_month": "$1,000"
+    },
+    {
+        "image": "https://images.pexels.com/photos/2079234/pexels-photo-2079234.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Modern Loft",
+        "city": "Downtown",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "room_size": "1500 sqft",
+        "availability": "Available",
+        "rent_per_month": "$1,800"
+    },
+    {
+        "image": "https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Riverfront Bliss",
+        "city": "Riverside",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "room_size": "1900 sqft",
+        "availability": "Not Available",
+        "rent_per_month": "$2,600"
+    },
+    {
+        "image": "https://images.pexels.com/photos/323775/pexels-photo-323775.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Sunrise Haven",
+        "city": "Hilltop",
+        "bedrooms": 4,
+        "bathrooms": 3.5,
+        "room_size": "2200 sqft",
+        "availability": "Available",
+        "rent_per_month": "$3,000"
+    }
+]
