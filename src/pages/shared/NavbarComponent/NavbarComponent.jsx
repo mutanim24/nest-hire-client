@@ -3,8 +3,9 @@
 // import Image from "next/image";
 import { MagnifyingGlass } from "phosphor-react";
 import { Navbar, Button } from "keep-react";
+import { Link } from "react-router-dom";
 
- const NavbarComponent = () => {
+const NavbarComponent = () => {
   return (
     <Navbar fluid={true}>
       <Navbar.Container className="flex items-center justify-between">
@@ -44,9 +45,11 @@ import { Navbar, Button } from "keep-react";
             </span>
             <span className="ml-2 text-metal-600">Search</span>
           </Button>
-          <Button size="sm" type="primary">
-            Login Now
-          </Button>
+          <Link to="/login">
+            <Button size="sm" type="primary">
+              Login Now
+            </Button>
+          </Link>
           <Navbar.Toggle />
         </Navbar.Container>
       </Navbar.Container>
