@@ -19,6 +19,8 @@ import {
     SkipForward,
     SpeakerHigh,
     Users,
+    ShieldCheck,
+    X
 } from "phosphor-react";
 
 const HouseCard = ({ house }) => {
@@ -54,16 +56,27 @@ const HouseCard = ({ house }) => {
                             <ArrowsOutSimple size={20} color="#5E718D" />
                             <span>{house.room_size}</span>
                         </Card.Title>
-                        <Card.Title className="flex items-center gap-2 !text-body-5 font-medium text-metal-500">
-                            <Users size={20} color="#5E718D" />
-                            <span>Family</span>
-                        </Card.Title>
+                        {
+                            house.availability == "Available" ?
+                                <>
+                                    <Card.Title className="flex items-center gap-2 !text-body-5 font-medium text-metal-500">
+                                        <ShieldCheck size={20} color="#5E718D" weight="fill" />
+                                        <span>{house.availability}</span>
+                                    </Card.Title>
+                                </> :
+                                <>
+                                    <Card.Title className="flex items-center gap-2 !text-body-5 font-medium text-metal-500">
+                                        <X size={20} color="#5E718D" weight="fill" />
+                                        <span>{house.availability}</span>
+                                    </Card.Title>
+                                </>
+                        }
                     </Card.Container>
                     <Card.Container className="my-3 flex items-center justify-between">
                         <Button type="primary" size="sm">
-                            Check Out
+                            View Details
                         </Button>
-                        <Card.Title className="text-body-3 font-medium text-metal-500">$649,00</Card.Title>
+                        <Card.Title className="text-body-3 font-medium text-metal-500">{house.rent_per_month}</Card.Title>
                     </Card.Container>
                 </Card.Container>
             </Card>

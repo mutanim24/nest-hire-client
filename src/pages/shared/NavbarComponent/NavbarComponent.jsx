@@ -45,7 +45,7 @@ import { Navbar, Button } from "keep-react";
             <span className="ml-2 text-metal-600">Search</span>
           </Button>
           <Button size="sm" type="primary">
-            Contact
+            Login Now
           </Button>
           <Navbar.Toggle />
         </Navbar.Container>
